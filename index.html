@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1 class="Welcome">Welcome To Register Page</h1>
+    <div class="RegisterPart">
+      <form action="">
+        <div class="innerPartRegister">
+          <label for="text">Username</label>
+          <input type="text" required /> <br />
+          <br />
+          <label for="password"
+            >Password <span>(at least 6 characters)</span></label
+          >
+          <input type="password" pattern=".{6,}" required /> <br />
+          <br />
+          <label for="Email">Email</label>
+          <input type="Email" required /> <br />
+          <br />
+          <label for="Male">Male </label>
+          <input type="radio" id="Male" />
+          <label for="Female">Female</label>
+          <input type="radio" id="Female" /> <br />
+          <br />
+          <a href="forgetPasswordController">Click for forget password</a>
+
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
