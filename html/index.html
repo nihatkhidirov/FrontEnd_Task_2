@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1 class="Welcome">Welcome To Register Page</h1>
+    <div class="RegisterPart">
+      <form action="./submit.html">
+        <div class="innerPartRegister">
+          <label for="text">Username</label>
+          <input type="text" id="text" required /> <br />
+          <br />
+          <label for="password"
+            ><span id="Passwordtxt">Password</span>
+            <span>(at least 6 characters)</span></label
+          >
+          <input type="password" id="password" pattern=".{6,}" required />
+          <br />
+          <br />
+          <label for="Email"><span id="emailtxt">Email</span> </label>
+          <input type="Email" id="Email" required /> <br />
+          <br />
+          <input type="radio" name="test" value="value1" /> Male
+          <input type="radio" name="test" value="value1" /> Female
+          <br />
+          <br />
+          <select name="cities" id="cities">
+            <option value="Baku">Baku</option>
+            <option value="Sumgait">Sumgait</option>
+            <option value="Ganja">Ganja</option>
+            <option value="Shaki">Shaki</option>
+            <option value="Mingecevir">Mingecevir</option>
+            <option value="Yevlakh">Yevlakh</option>
+            <option value="Shirvan">Shirvan</option>
+            <option value="Nakhcivan">Nakhcivan</option>
+            <option value="Gadabay">Gadabay</option>
+          </select>
+          <br />
+          <br />
+          <a href="forgot.html" id="forgetpassword"
+            >Click for forget password</a
+          >
+
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
